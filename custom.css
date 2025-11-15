@@ -1,0 +1,113 @@
+/*style sheet*/
+
+/* body {
+} */
+/*Navbar*/
+*{
+	box-sizing: border-box!important;
+}
+.mynav {
+  background-image: linear-gradient(to right, green, yellow, red);
+}
+.navbar-brand {
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: none;
+  text-shadow: 3px 3px 5px #fff;
+}
+.mynav a {
+  margin-right: 30px;
+}
+.mynav a:hover {
+  border-bottom: 2px solid #181174;
+}
+.navbar-brand:hover {
+  border-bottom: 2px solid transparent !important;
+}
+.active a {
+  border-bottom: 2px solid #181174;
+}
+/*Topography*/
+h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 40px;
+  color: #181174;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+h3 {
+  font-family: "Oswald", sans-serif;
+  font-size: 30px;
+  color: #181174;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+h4 {
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  color: #181174;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+p {
+  font-family: "Raleway", sans-serif;
+}
+/*Spacing*/
+.gap100 {
+  padding: 70px 0px;
+}
+/*Header*/
+
+#phd {
+  background-image: linear-gradient(#444, #fff);
+  margin-top: 80px;
+}
+.h2w {
+  color: #fff;
+  margin: 50px 0;
+}
+.bread {
+  color: #fff;
+  margin-top: 60px;
+}
+.bread a {
+  color: #fff;
+  text-decoration: none;
+}
+/*Footer*/
+footer {
+  background: #444;
+  padding: 30px;
+}
+.copy {
+  padding-top: 30px;
+}
+/*Main background
+ #Main {
+	background-image:url(img/fivecolonel.jfif);
+    background-size:cover;
+    background-attachment:fixed;
+    min-height:500px;
+	
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;*/
+.mcc{
+	position: static;
+}
+
+.picT-container{
+	max-height: 486px;
+
+}
+
+.picT{
+	max-height: 486px;
+	width: 100%;
+}
+
+.textT{
+	line-height: 2;
+}
